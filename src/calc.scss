@@ -1,0 +1,24 @@
+.calc-main {
+    margin: 50 50;
+    padding: 0;
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+
+    .calc {
+        margin: 35px 50px 35px 0;
+        border: 2px solid black;
+
+        .output {
+            width: 100%;
+            padding: 15px 20px;
+            margin: 4px 4px;
+            border: 1px solid black;
+        }
+
+        .calc-func {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
